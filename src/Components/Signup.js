@@ -8,6 +8,7 @@ import { app } from "../Base";
 // import "./mod.css";
 import { motion } from "framer-motion";
 import { useHistory } from "react-router";
+import Login from "./Login";
 const db = app.firestore().collection("securityUser");
 function SignUp() {
   const hist = useHistory();
@@ -195,7 +196,7 @@ function SignUp() {
                   width: "30%",
                   height: "50px",
                   borderRadius: "5px",
-                  backgroundColor: "#DE6316",
+                  backgroundColor: "#34384A",
                   color: "white",
                   border: "1px solid gray",
                   fontFamily: "poppins",
@@ -217,7 +218,7 @@ function SignUp() {
                     cursor: "pointer",
                   }}
                 >
-                  Log in{" "}
+                  <Login />
                 </div>
                 {/* </Link> */}
               </div>

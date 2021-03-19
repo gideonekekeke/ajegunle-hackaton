@@ -6,6 +6,7 @@ import Ajsecure from "./ayama/Ajsecure/Ajsecure";
 import Header from "./ayama/Header/Header";
 import Cases from "./Components/Cases";
 import HomeView from "./Components/HomeView";
+import JoshCard from "./Components/JoshCard/Joshcard";
 
 import Login from "./Components/Login";
 import ModalPicture from "./Components/ModalPicture";
@@ -26,6 +27,7 @@ function App() {
             <Route path="/signup" component={SignUp} />
             <Route path="/report" component={Reports} />
             <Route exact path="/case" component={Cases} />
+            <Route exact path="/josh" component={JoshCard} />
           </Switch>
         </Router>
       </GlobalProvider>
