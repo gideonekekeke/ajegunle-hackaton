@@ -36,7 +36,7 @@ function Reports() {
         createdAt: new Date().toLocaleString(),
         dateTime: Date.now().toString(),
       });
-      hist.push("/case");
+      hist.push("/");
     }
     setCrime("");
     setLocation("");

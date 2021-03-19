@@ -63,7 +63,9 @@ function DispalyComent({ postedBy, com, dateTime, createdUser }) {
             {com}
           </div>
 
-          <div style={{ color: "green" }}>{moment(createdUser).fromNow()}</div>
+          <div style={{ color: "green" }}>
+            posted {moment(createdUser).fromNow()}
+          </div>
         </div>
       </div>
       {/* </div> */}

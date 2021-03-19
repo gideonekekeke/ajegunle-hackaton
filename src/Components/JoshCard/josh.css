@@ -1,0 +1,11 @@
+.card_background {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.first_card {
+  height: 150px;
+  width: 250px;
+  background: white;
+}

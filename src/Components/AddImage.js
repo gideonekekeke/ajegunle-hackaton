@@ -52,7 +52,7 @@ function AddImage({ createdBy, createdAt }) {
           }}
         >
           {name && name.name}
-          <div>{moment(createdAt).fromNow()}</div>
+          <div>posted {moment(createdAt).fromNow()}</div>
         </div>
       </div>
     </>

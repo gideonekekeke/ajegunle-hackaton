@@ -7,6 +7,7 @@ import TotalView from "./TotalView";
 import Comment from "./Comment";
 import ReadMore from "read-more-react";
 import Ajsecure from "../ayama/Ajsecure/Ajsecure";
+import JoshCard from "./JoshCard/Joshcard";
 
 const post = app.firestore().collection("posts");
 const db = app.firestore().collection("securityUser");
@@ -74,6 +75,8 @@ function HomeView({ com, createdBy }) {
       </div>
 
       <Ajsecure />
+      <JoshCard />
+      <div>uijsekryjmc</div>
     </div>
   );
 }
