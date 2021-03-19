@@ -1,0 +1,87 @@
+.navAll{
+  height: 60px;
+  /* background:#FFFFFF; */
+  background: #646876;;
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 0px 5px 2px #A9A9A9;
+}
+
+.iconHome{
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  align-items: center;
+}
+.homeWrite{
+  /* color: #8E8F8F; */
+  color: white;
+ 
+  
+
+}
+
+.conhom{
+  /* color: #ABABAB; */
+  color: #ccad7c;
+  size: 500px;
+  font-size: 25px;
+  
+ 
+ 
+}
+
+.imgcon{
+  background: lightblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.userIfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.iconReport{
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  align-items: center;
+
+}
+
+.reportWrite{
+  /* color: #8E8F8F; */
+  color: white;
+}
+
+.buttonclass{
+ border: 2px solid #ccad7c;
+ /* border: 2px solid #ABABAB; */
+  width: 100px;
+  height: 45px;
+  /* background: #FFFFFF; */
+  background: #34384A;
+  border-radius: 5px;
+  /* color:#ABABAB ; */
+  color: white;
+
+}
+
+@media only screen and (max-width: 320px) {
+  .buttonclass {
+    width: 70px;
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .buttonclass {
+    width: 70px;
+    height: 40px;
+  }
+}

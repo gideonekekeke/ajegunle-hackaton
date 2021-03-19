@@ -1,0 +1,128 @@
+.ajcom1 {
+  height: 120px;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+}
+
+@media only screen and (max-width: 320px) {
+  .ajcom1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .ajcom1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.ajcom2 {
+  background: #646876;
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 320px) {
+  .ajcom2 {
+    width: 30%;
+    height: 95px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .ajcom2 {
+    width: 30%;
+    height: 95px;
+  }
+}
+
+.ajcom3 {
+  background: #646876;
+  /* background:#A9A9A9; */
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 320px) {
+  .ajcom3 {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .ajcom3 {
+    width: 30%;
+    height: 95px;
+  }
+}
+
+.ajcom4 {
+  /* background:#A9A9A9; */
+  background: #646876;
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 320px) {
+  .ajcom4 {
+    width: 30%;
+    height: 95px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .ajcom4 {
+    width: 30%;
+    height: 95px;
+  }
+}
+
+.awares {
+  font-size: 50px;
+  /* color: white; */
+  color: #ccad7c;
+  font-weight: 100w;
+}
+
+@media only screen and (max-width: 320px) {
+  .awares {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .awares {
+    font-size: 25px;
+  }
+}
+
+.hrcon {
+  width: 100px;
+  background: #ccad7c;
+  color: #ccad7c;
+}
+@media only screen and (max-width: 320px) {
+  .hrcon {
+    width: 50px;
+  }
+}
+.ajecon {
+  font-size: 20px;
+  color: #a9a9a9;
+  height: 40px;
+}
